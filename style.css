@@ -1,0 +1,53 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.stopwatch-container {
+  text-align: center;
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  width: 300px;
+}
+
+.display {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+.controls button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#start { background-color: #4caf50; color: white; }
+#pause { background-color: #ff9800; color: white; }
+#reset { background-color: #f44336; color: white; }
+#lap { background-color: #2196f3; color: white; }
+
+.lap-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.lap-list li {
+  background-color: #333;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 5px;
+}
